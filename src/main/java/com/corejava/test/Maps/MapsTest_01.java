@@ -11,13 +11,8 @@ mapAB2({"a": "aaa", "b": "bbb"}) → {"a": "aaa", "b": "bbb"}
 mapAB2({"a": "aaa", "b": "bbb", "c": "aaa"}) → {"a": "aaa", "b": "bbb", "c": "aaa"}
 */
   public Map<String, String> mapAB2(Map<String, String> map) {
-	
-	String temp1 = map.get("a");
-	String temp2 = map.get("b");
-	if (temp1 != null && temp2 != null && temp1.equals(temp2)) {
-	  map.remove("a");
-	  map.remove("b");
-	}
+  
+	//Write the code here..also change the default return statement
 	return map;
   }
 }

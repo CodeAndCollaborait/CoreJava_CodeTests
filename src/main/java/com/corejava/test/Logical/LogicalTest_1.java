@@ -11,13 +11,9 @@ public class LogicalTest_1 {
    * Otherwise the result is 1 (maybe).
    */
   public int dateFashion(int you, int date) {
-	if (you <= 2 || date <= 2)
-	  return 0;
+	//Write the code here..also change the default return statement
 	
-	if (you >= 8 || date >= 8)
-	  return 2;
-	
-	return 1;
+	return 0;
   }
   
   

@@ -11,10 +11,9 @@ public class LogicalTest_2 {
 	inOrderEqual(5, 5, 7, true) → true
    */
   public boolean inOrderEqual(int a, int b, int c, boolean equalOk) {
-	if(equalOk)
-	  return a <= b && b <= c;
+	//Write the code here..also change the default return statement
 	
-	return a < b && b < c;
+	return false;
   }
   
 }
